@@ -1,0 +1,5 @@
+leftShoes = int(input("Number of left shoes: "))
+rightShoes = int(input("Number of right shoes: "))
+minShoes = min(leftShoes,rightShoes)
+maxShoes = max(leftShoes,rightShoes)
+print(f'There are {minShoes} and {maxShoes-minShoes} leftover shoes.')
